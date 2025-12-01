@@ -1,0 +1,9 @@
+class Car {
+    String model;
+    int year;
+
+    Car(String m, int y) {   
+        model = m;
+        year = y;
+    }
+}
