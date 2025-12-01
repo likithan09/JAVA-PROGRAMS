@@ -1,0 +1,3 @@
+int age = 25;
+double salary = 50250.75;
+char grade = 'A';
