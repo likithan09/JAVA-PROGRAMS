@@ -1,0 +1,29 @@
+public class TestSchool {
+public static void main(String[] args) {
+Student s = new Student("Aarav Sharma"
+, 18,
+"Aaru");
+s.showNames();
+}
+}
+class Person {
+String name; // full name
+int age;
+Person(String name, int age) {
+this.name = name;
+this.age = age;
+}
+}
+class Student extends Person {
+String name; // nickname
+Student(String fullName, int age, String nickName) {
+super(fullName, age); // calling parent
+constructor
+this.name = nickName; // subclass variable
+}
+void showNames() {
+System.out.println("Full Name (super): " +
+super.name);
+System.out.println("Nickname (this): " + name);
+}
+}
