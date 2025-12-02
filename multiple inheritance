@@ -1,0 +1,18 @@
+class Animal {
+void eat() {
+System.out.println("Animals can eat");
+}
+}
+// Intermediate class (Child of Animal, Parent of
+Puppy)
+class Dog extends Animal {
+void bark() {
+System.out.println("Dog can bark");
+}
+}
+// Child class (Grandchild of Animal)
+class Puppy extends Dog {
+void weep() {
+System.out.println("Puppy can weep");
+}
+}
